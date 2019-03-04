@@ -11,7 +11,7 @@ function capMissing = checkCapMissing(image)
     capImage = cropImage(image, 150, 1,  230, 60);
     
     % Convert to binary image, threshold obtained using imhist()
-    capBinary = imbinarize(capImage, double(130/255));
+    capBinary = imbinarize(capImage, double(120/255));
     
     % Calculate the percentage of black pixels (=0) in the image
     blackPixels = sum(capBinary(:)==0);

@@ -11,7 +11,7 @@ function bottleUnderfilled = checkBottleUnderfilled(image)
     label = cropImage(image, 140, 110, 225, 160);
     
     % Convert to binary image, threshold obtained using imhist()
-    labelBinary = imbinarize(label, double(170/255));
+    labelBinary = imbinarize(label, double(120/256));
     
     % Calculate the percentage of black pixels (=0) in the image
     blackPixels = sum(labelBinary(:)==0);
