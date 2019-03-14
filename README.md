@@ -9,6 +9,7 @@ Part one deals with the evaluation of a visual inspection system with with Gauss
 
 Part one chooses three fault categories from the previous application. The "imnoise" function is used to add Gaussian noise for each fault of increasing levels of noise variance. Each fault is then checked using the same methods as previous and the results are graphed. The overall performance can be seen below.
 
+<img src="https://github.com/JordanCahill/ProductionLineNoiseAnalysis/blob/master/Results/PartOne/OverallResults.png" alt="Overall Results (i)" width="250" height="250">
 ![alt text](https://github.com/JordanCahill/ProductionLineNoiseAnalysis/blob/master/Results/PartOne/OverallResults.png =250x250)
 
 ---
