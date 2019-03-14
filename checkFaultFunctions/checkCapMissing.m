@@ -5,7 +5,9 @@ function capMissing = checkCapMissing(image)
 % a missing bottlecap 
 
     % Convert to greyscale
-    image = rgb2gray(image);
+    if size(image, 3) == 3
+        image = rgb2gray(image);
+    end
     
     % Extract the relevant section of the image
     capImage = cropImage(image, 150, 1,  230, 60);

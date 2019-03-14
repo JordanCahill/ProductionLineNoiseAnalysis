@@ -5,7 +5,9 @@ function labelMissing = checkLabelMissing(image)
 % a missing label
 
     % Convert to greyscale
-    image = rgb2gray(image);
+    if size(image, 3) == 3
+        image = rgb2gray(image);
+    end
     
     % Extract the relevant section of the image
     labelImage = cropImage(image, 115, 175,  240, 280);

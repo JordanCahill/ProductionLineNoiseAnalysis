@@ -5,7 +5,9 @@ function bottleUnderfilled = checkBottleUnderfilled(image)
 % image is marked as underfilled
 
     % Convert to greyscale
-    image = rgb2gray(image);
+    if size(image, 3) == 3
+        image = rgb2gray(image);
+    end
     
     % Extract the relevant section of the image
     label = cropImage(image, 140, 110, 225, 160);
