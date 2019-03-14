@@ -24,7 +24,7 @@ Initially, a single noise level was chosen as a test operating point. A sigma va
 * Gaussian Filtering (Spatial Domain)
 * Low-Pass Filtering (Frequency Domain)
 
-The application was then extended to the full range of noise variance from part one to obtain a plot of system performance vs noise variance.
+The application was then extended to a full range of noise variance (larger than that of part one) to obtain a plot of system performance vs noise variance.
 
 <img src="https://github.com/JordanCahill/ProductionLineNoiseAnalysis/blob/master/Results/PartTwo/OverallPerformance.png" alt="Overall Results (ii)" width="450" height="400">
 
