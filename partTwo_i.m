@@ -3,7 +3,7 @@ clearvars; close all; clc;
 % Allow Matlab to access functions in subdirectories 
 addpath(genpath(pwd));
 
-% Load 'bottle overfilled' images
+% Load 'Cap missing' images
 dirCapMissing = 'Pictures/6-CapMissing/';
 imagesCapMissing = dir(fullfile(dirCapMissing,'*.jpg'));
 

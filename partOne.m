@@ -7,7 +7,7 @@ addpath(genpath(pwd));
 dirUnderfilled = 'Pictures/1-UnderFilled/';
 imagesUnderfilled = dir(fullfile(dirUnderfilled,'*.jpg'));
 
-% Load 'bottle overfilled' images
+% Load 'cap missing' images
 dirCapMissing = 'Pictures/6-CapMissing/';
 imagesCapMissing = dir(fullfile(dirCapMissing,'*.jpg'));
 
