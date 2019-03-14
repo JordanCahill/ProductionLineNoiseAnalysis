@@ -15,7 +15,7 @@ Part one chooses three fault categories from the previous application. The "imno
 
 ### 2. Investigation of Noise Removal using Filtering 
 
-Part two adds applies filtering to the noisy images and investigates the performance of the program. The "Cap missing" fault was chosen as it performed in between the other two faults chosen for part one. This gave a better picture of performance post-filtering. 
+Part two applies filtering to the noisy images and investigates the performance of the program. The "Cap missing" fault was chosen as it performed in between the other two faults chosen for part one. This gave a better picture of performance post-filtering. 
 
 Initially, a single noise level was chosen as a test operating point. A sigma value of 0.12 was chosen as this resulted in a 10% detection rate when no filtering was applied. Each image was separately subjected to four different types of filters:
 

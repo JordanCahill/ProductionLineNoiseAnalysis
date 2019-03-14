@@ -85,5 +85,5 @@ xlabel('Noise Level')
 ylabel('Accuracy %');
 ylim([0,  105])
 grid on;
-legend({'No Filter', 'Average', 'Median', 'Gaussian', 'Low-Pass'}, 'Location', 'southwest')
+legend({'No Filter', 'Average', 'Median', 'Gaussian', 'Low-Pass'}, 'Location', 'southeast')
 saveas(gcf,'Results/PartTwo/OverallPerformance.png')
