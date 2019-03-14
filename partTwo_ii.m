@@ -9,13 +9,13 @@ imagesCapMissing = dir(fullfile(dirCapMissing,'*.jpg'));
 
 numImages = length(imagesCapMissing);
 
-noiseRange = 0.0:0.025:0.35; 
+noiseRange = 0:0.1:10; 
 numTests = 5;
 
 % Ideal filter parameters 
-N = 1; % Avg & Med
-stdDev = 0.5; % Gauss
-cutoffFreq = 0.3; % LPF
+N = 5; % Avg & Med
+stdDev = 3; % Gauss
+cutoffFreq = 0.1; % LPF
 
 % Initialise results arrays
 results = zeros(5, length(noiseRange));
